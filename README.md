@@ -1,8 +1,15 @@
-# React + Vite
+# Rick and Morty Filter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project fetches data from the Rick and Morty API and allows users to filter characters by their status and gender.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Fetches characters from [Rick and Morty API](https://rickandmortyapi.com/).
+- Filters characters by status (Alive, Dead, Unknown) and gender (Male, Female, Unknown).
+- Displays characters in a responsive card layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies
+- React
+- Custom Hooks
+- Axios
+- Tailwind CSS (for styling)
+
